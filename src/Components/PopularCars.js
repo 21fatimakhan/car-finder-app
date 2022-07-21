@@ -7,7 +7,7 @@ function PopularCars() {
     return ( 
         <popularcars className="pb-5 mb-md-4 container">
     <div className="d-sm-flex align-items-center justify-content-between mb-3 mb-sm-4 pb-sm-2">
-        <h2 className="h3 text-light mb-2 mb-sm-0">Popular car body types</h2><a role="button" tabindex="0" href="/car-finder/catalog?view=grid" className="btn btn-link btn-light fw-normal px-0">View all<i className="fi-arrow-long-right fs-sm mt-0 ps-1 ms-2"></i></a>
+        <h2 className="h3 text-light mb-2 mb-sm-0 top-headings">Popular car body types</h2><a role="button" tabindex="0" href="/car-finder/catalog?view=grid" className="btn btn-link btn-light fw-normal px-0">View all<i className="fi-arrow-long-right fs-sm mt-0 ps-1 ms-2"></i></a>
     </div>
     <div className="g-2 g-md-4 row row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-2">
         <div className="col">

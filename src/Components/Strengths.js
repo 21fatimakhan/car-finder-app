@@ -7,7 +7,7 @@ function Strengths() {
     return (
         <strengths className="pt-4 pt-md-5 container">
     <div className="d-sm-flex align-items-center justify-content-between">
-        <h2 className="h3 text-light mb-2 mb-sm-0">What sets Finder apart?</h2><a role="button" tabindex="0" href=" " className="btn btn-link btn-light fw-normal px-0">How to sell cars on Finder<i className="fi-arrow-long-right fs-sm mt-0 ps-1 ms-2"></i></a>
+        <h2 className="h3 text-light mb-2 mb-sm-0 top-headings">What sets Finder apart?</h2><a role="button" tabindex="0" href=" " className="btn btn-link btn-light fw-normal px-0">How to sell cars on Finder<i className="fi-arrow-long-right fs-sm mt-0 ps-1 ms-2"></i></a>
     </div>
     <div className="row">
         <div className="pt-4 mt-2 pt-md-5 mt-md-3 col-lg-4 col-md-5 offset-lg-1">
@@ -27,7 +27,7 @@ function Strengths() {
                     <p className="fs-sm text-light opacity-70 mb-0">Our powerful search makes it easy to personalize your results so you only see the cars and features you care about.</p>
                 </div>
             </div>
-            <div className="d-flex pb-4 pb-md-5 mb-2"><i class=" fa fa-thin fa-gear lead  mt-1 order-md-2 fal "></i>
+            <div className="d-flex pb-4 pb-md-5 mb-2"><i class=" fa fa-thin fa-gear mt-1 order-md-2 fal "></i>
                 <div className="text-md-end ps-3 ps-md-0 pe-md-3 order-md-1">
                     <h3 className="h6 text-light mb-1">Non-Stop Innovation</h3>
                     <p className="fs-sm text-light opacity-70 mb-0">Our team is constantly developing new features that make the process of buying and selling a car simpler.</p>
@@ -48,7 +48,7 @@ function Strengths() {
             </div>
         </div>
         <div className="pt-md-5 mt-md-3 col-lg-4 col-md-5">
-            <div className="d-flex pb-4 pb-md-5 mb-2"><i className="fa fa-thin fa-info-circle fal mt-1"></i>
+            <div className="d-flex pb-4 pb-md-5 mb-2"><i className="fa fa-solid fa-info-circle fal mt-1"></i>
                 <div className="ps-3">
                     <h3 className="h6 text-light mb-1">Valuable Insights</h3>
                     <p className="fs-sm text-light opacity-70 mb-0">We provide free access to key info like dealer reviews, market value, price drops.</p>

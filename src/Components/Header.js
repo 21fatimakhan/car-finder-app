@@ -12,7 +12,7 @@ function Header() {
   return (
    
     <Navbar className="navnar-dark" variant="dark" expand="lg" fixed="top">
-      <Container>
+      <Container >
        
         <Navbar.Brand className= 'me-2 me-xl-4' href="#home"   >
             <img
@@ -38,9 +38,26 @@ function Header() {
         
 
 
-        <Navbar.Collapse id="basic-navbar-nav" className="order-lg-2">
+        <Navbar.Collapse id="basic-navbar-nav" className="order-lg-2 nav-bar">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+          <i class="fa fa-regular fa-layer-group"></i>
+          <NavDropdown title="Demos" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+             
+            </NavDropdown>
+           
+            &nbsp; 
+            <span class=" line d-none d-lg-block position-absolute top-50 translate-middle-y border-end border-light"></span>
+            &nbsp;  
+            <Nav.Link href="#home"  >Home</Nav.Link>
             
             <NavDropdown title="Catalog" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
