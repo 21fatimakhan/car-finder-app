@@ -24,15 +24,15 @@ function Header() {
             />{' '}
             
           </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav ms-auto" className= "toggle-btn "  />
         
         
-        <button type="button" className="btn btn-link btn-light btn-sm d-none d-lg-block order-lg-3 btn-sm">
+        <button type="button" className="btn btn-link btn-light btn-sm d-none d-sm-none d-lg-block order-lg-3 btn-sm">
         
         <i class=" fa fa-light fa-user"></i>
         Sign in</button>
        
-        <button type="button" class="order-lg-3 ms-2 btn btn-primary btn-small">
+        <button type="button" class=" sell-car order-lg-3 ms-2 btn btn-primary btn-small">
         <i class=" fa fa-regular fa-plus"></i>Sell Car</button>
 
         

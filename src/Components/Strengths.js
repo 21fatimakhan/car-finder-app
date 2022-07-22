@@ -40,7 +40,7 @@ function Strengths() {
                 <span >
                             <span>
                            
-                            <img src="/Assets/Images/car.svg" alt=""/>
+                            <img src="/Assets/Images/car.svg" alt="" className="p-car"/>
                             </span>
                             </span>
                 </div>
