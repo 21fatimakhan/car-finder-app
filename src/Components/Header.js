@@ -24,7 +24,7 @@ function Header() {
             />{' '}
             
           </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav ms-auto" className= "toggle-btn "  />
+          <Navbar.Toggle aria-controls="basic-navbar-nav " className= "toggle-btn "  />
         
         
         <button type="button" className="btn btn-link btn-light btn-sm d-none d-sm-none d-lg-block order-lg-3 btn-sm">
