@@ -10,14 +10,14 @@ function LatestNews() {
     </div>
     
 
-<div className="card-group">
-  <div className="card card-s">
+<div className="card-group ms-lg-4  ">
+  <div className=" conainer  card card-s bg ">
     <img className="card-img-top" src="/Assets/Images/LatestNews/img1.webp " alt=" " />
     
-     <div className="py-3"><a className=" fs-xs text-uppercase text-decoration-none" href=" ">Events
+     <div className="py-3"><a className=" fs-xs text-uppercase text-decoration-none" href=" #Home ">Events
                     </a>
-                        <h3 className="fs-base pt-1 mb-2"><a className="nav-link-light" href=" ">
-                            <b>Top 10 Classic Car Events</b></a></h3><a className="d-flex align-items-center text-decoration-none pt-2" href="/car-finder#">
+                        <h3 className="fs-base pt-1 mb-2"><a className="nav-link-light" href="#Home ">
+                            <b>Top 10 Classic Car Events</b></a></h3><a className="d-flex align-items-center text-decoration-none pt-2" href="#Home">
                             <div className=" person-pic position-relative flex-shrink-0 rounded-circle overflow-hidden me-2"> 
                             <span className= "img-car">
                            
@@ -32,12 +32,12 @@ function LatestNews() {
                         </a>
                     </div>
   </div>
-  <div className="card">
+  <div className=" conainer card ms-lg-4 bg ">
     <img className="card-img-top car-img" src="/Assets/Images/LatestNews/img2.webp" alt=" " />
-    <div className="py-3"><a class="fs-xs text-uppercase text-decoration-none" href=" ">Inspiration
+    <div className="py-3"><a class="fs-xs text-uppercase text-decoration-none" href="#Home">Inspiration
                     </a>
-                        <h3 className="fs-base pt-1 mb-2"><a className="nav-link-light" href=" ">
-                        <b>5 Predictions From the Past About the Future</b></a></h3><a className="d-flex align-items-center text-decoration-none pt-2" href="/car-finder#">
+                        <h3 className="fs-base pt-1 mb-2"><a className="nav-link-light" href=" #Home">
+                        <b>5 Predictions From the Past About the Future</b></a></h3><a className="d-flex align-items-center text-decoration-none pt-2" href="#Home">
                             <div className=" person-pic position-relative flex-shrink-0 rounded-circle overflow-hidden me-2"> 
                             <span className= "car-img">
                            
@@ -52,12 +52,12 @@ function LatestNews() {
                         </a>
                     </div>
   </div>
-  <div className="card">
+  <div className=" card ms-lg-4 me-lg-4 bg">
     <img className="card-img-top" src="/Assets/Images/LatestNews/img3.webp" alt=" " />
-    <div className="py-3"><a class="fs-xs text-uppercase text-decoration-none" href=" ">Test Drives
+    <div className="py-3"><a class="fs-xs text-uppercase text-decoration-none" href="#Home ">Test Drives
                     </a>
-                        <h3 className="fs-base pt-1 mb-2"><a className="nav-link-light" href=" ">
-                        <b>This Year is All About New Harley Davidson</b></a></h3><a className="d-flex align-items-center text-decoration-none pt-2" href="/car-finder#">
+                        <h3 className="fs-base pt-1 mb-2"><a className="nav-link-light" href="#Home ">
+                        <b>This Year is All About New Harley Davidson</b></a></h3><a className="d-flex align-items-center text-decoration-none pt-2" href="#Home">
                             <div className=" person-pic position-relative flex-shrink-0 rounded-circle overflow-hidden me-2"> 
                             <span className= "car-img">
                            

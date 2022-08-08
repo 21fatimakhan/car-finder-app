@@ -8,7 +8,7 @@ function Footer() {
 
         <div className="border-bottom border-light py-4 footer-s">
                 <div className=" footer-s d-sm-flex align-items-center justify-content-between ">
-                    <a className="d-inline-flex" href="/car-finder">
+                    <a className="d-inline-flex" href="#Home">
                        <span>
                         <img className="footer-img" src="./Assets/Images/carfinder-logo.svg" alt=""/>
                        </span>

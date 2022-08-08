@@ -131,7 +131,7 @@ function CarBrands() {
 
         <div className="mb-4 pb-2 col-xl-1 col-sm-2 col-3"><a className="d-flex justify-content-center opacity-40 opacity-transition" href="/car-finder#">
                              <span >
-                            <span class= "car-img">
+                            <span className= "car-img">
                            
                             <img className="image-car" src="/Assets/Images/CarBrands/mitsubishi.svg" alt=""/>
                             </span>

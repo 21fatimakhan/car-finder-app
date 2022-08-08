@@ -7,7 +7,7 @@ function PopularCars() {
     return ( 
         <popularcars className="pb-5 mb-md-4 container">
     <div className="d-sm-flex align-items-center justify-content-between mb-3 mb-sm-4 pb-sm-2">
-        <h2 className="h3 text-light mb-2 mb-sm-0 top-headings">Popular car body types</h2><a role="button" tabindex="0" href="/car-finder/catalog?view=grid" className="btn btn-link btn-light fw-normal px-0">View all<i className="fi-arrow-long-right fs-sm mt-0 ps-1 ms-2"></i></a>
+        <h2 className="h3 text-light mb-2 mb-sm-0 top-headings">Popular car body types</h2>
     </div>
     <div className="g-2 g-md-4 row row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-2">
         <div className="col">
@@ -22,7 +22,7 @@ function PopularCars() {
                             </span>
 
                     </div>
-                    <a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=list">Sedan</a>
+                    <a className="nav-link-light stretched-link fw-bold" href=" #Home">Sedan</a>
             </div>
         </div>
         <div className="col">
@@ -37,7 +37,7 @@ function PopularCars() {
                             </span>
 
                     
-                    </div><a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=grid">SUV</a>
+                    </div><a className="nav-link-light stretched-link fw-bold" href="#Home">SUV</a>
             </div>
         </div>
         <div className="col">
@@ -51,7 +51,7 @@ function PopularCars() {
 
                             </span>
             </div>
-            <a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=list">Wagon</a>
+            <a className="nav-link-light stretched-link fw-bold" href="#Home">Wagon</a>
             </div>
         </div>
         <div className="col">
@@ -65,7 +65,7 @@ function PopularCars() {
 
                             </span>
             </div>
-            <a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=grid">Crossover</a>
+            <a className="nav-link-light stretched-link fw-bold" href="#Home">Crossover</a>
             </div>
         </div>
         <div className="col">
@@ -79,7 +79,7 @@ function PopularCars() {
 
                             </span>
           </div>
-          <a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=list">Coupe</a>
+          <a className="nav-link-light stretched-link fw-bold" href="#Home">Coupe</a>
             </div>
         </div>
         <div className="col">
@@ -92,7 +92,7 @@ function PopularCars() {
 
                             </span>
                 </div>
-                <a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=grid">Pickup</a>
+                <a className="nav-link-light stretched-link fw-bold" href="#Home">Pickup</a>
             </div>
         </div>
         <div className="col">
@@ -106,7 +106,7 @@ function PopularCars() {
 
                             </span>
                      </div>
-                     <a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=list">Sport Coupe</a>
+                     <a className="nav-link-light stretched-link fw-bold" href="#Home">Sport Coupe</a>
             </div>
         </div>
         <div className="col">
@@ -120,7 +120,7 @@ function PopularCars() {
 
                             </span>
                    </div>
-                   <a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=grid">Compact</a>
+                   <a className="nav-link-light stretched-link fw-bold" href="#Home">Compact</a>
             </div>
         </div>
         <div className="col">
@@ -134,7 +134,7 @@ function PopularCars() {
 
                             </span>
                            </div>
-                           <a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=list">Convertible</a>
+                           <a className="nav-link-light stretched-link fw-bold" href="#Home">Convertible</a>
             </div>
         </div>
         <div className="col">
@@ -148,7 +148,7 @@ function PopularCars() {
 
                             </span>
                                    </div>
-                                   <a className="nav-link-light stretched-link fw-bold" href="/car-finder/catalog?view=grid">Family MPV</a>
+                                   <a className="nav-link-light stretched-link fw-bold" href=" #Home ">Family MPV</a>
             </div>
         </div>
     </div>

@@ -1,4 +1,4 @@
-@import"https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap";
+/* @import"https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"; */
 
 html, body{
   margin: 0px;
@@ -10,8 +10,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
   background-color: rgb(31, 27, 45);
   display: flex;
   flex-direction: column;
@@ -22,19 +21,7 @@ code {
     monospace;
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-    width: 100%;
-    padding-right: var(--bs-gutter-x, .75rem);
-    padding-left: var(--bs-gutter-x, .75rem);
-    margin-right: auto;
-    margin-left: auto
-}
+
 
 .div{
   display: block;
@@ -463,15 +450,23 @@ p {
 }
 .card{
   background-color:  rgb(31, 27, 45) ;
-   margin-right: 25px;
+   /* margin-right: 25px; */
  
  
  
 }
 
-.card-s{
+/* .card-s{
   margin-left: 20px;
+} */
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .card{
+  margin-left: 25px;
+    margin-right: 25px ;
+  }
 }
+
 
 .car-image{
   border-radius: .75rem;
@@ -523,6 +518,7 @@ p {
 /* ////////////// Strengths /////////////////// */
 
 
+
 .fal{
   color: red;
 }
@@ -534,5 +530,60 @@ p {
 
 .fb-m{
   color:white;
+}
+
+.mdi-36px {
+  font-size: 39px;
+  margin-right:10px;
+}
+
+.play-store-btn{
+  background-color: rgba(69,64,86,.765);
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* ////////////////// TopOffers/////////// */
+.form-check-label{
+  color: #fff;
+}
+
+.form-check-input{
+  background-color: transparent;
+  border: 2px solid #bbb7c5;
+
+}
+.price{
+  color: #fd5631;
+}
+
+.border-top{
+  border-top: 1px solid #555258!important;
+}
+
+.card{
+  background-color: hsla(0,0%,100%,.04);
+  border-bottom-right-radius: 0.75rem;
+}
+
+.card-btn{
+  border-radius: 0.5rem;
+  background-color: rgba(31,27,45);
+}
+
+.icons{
+  color: #fff;
+ max-height: 20px;
+ max-width: 20px;
+}
+
+.horizontal-card{
+  max-width: 640px;
+  border-radius: 0.75rem;
+}
+
+.card-horizontal{
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
 }
 
